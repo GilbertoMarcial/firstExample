@@ -1,0 +1,16 @@
+passwords.txt
+
+# Ignoramos todo los archivos .class
+*.class
+
+# Ignoramos todos los archivos de bitácora dentro de la carpeta log
+log/*.log
+
+# Ignoramos los archivos dentro de una carpeta específica
+node_modules/
+
+# Podemos indicar que NO ignorar:
+# Ignoramos todos los archivos dentro de la carpeta librerias
+librerias/
+# Excepto los archivos:
+!librerias/archivo_*.md
